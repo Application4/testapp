@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: user-app-container
-        image: 'myapp:1.0'
+        image: 'user-service:1.0'
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9191
